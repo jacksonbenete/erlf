@@ -1,2 +1,16 @@
 # erlf
-Erlang code formatter tool based on erlang/sourcer. Can be called from CLI or used inside another program.
+
+Erlang code formatter.
+
+The code formatter engine is erlang/sourcer.
+
+
+TODO: merge with text editor.
+
+# Build
+
+    $ rebar3 escriptize
+
+# Run
+
+    $ _build/default/bin/erlf
