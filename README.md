@@ -13,4 +13,6 @@ TODO: merge with text editor.
 
 # Run
 
-    $ _build/default/bin/erlf
+    $ _build/default/bin/erlf FILENAME
+
+The formatter will run on FILENAME and save the formated result again on FILENAME. A backup of the original file can be found as $$FILENAME.
